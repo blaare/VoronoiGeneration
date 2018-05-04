@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2a1b47c-f3e5-472f-aca0-f5b082e042c0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/squares.py" beforeDir="false" afterPath="$PROJECT_DIR$/squares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_placement_no_overlap.py" beforeDir="false" afterPath="$PROJECT_DIR$/random_placement_no_overlap.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,32 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="random_placement_no_overlap.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="random_placement_no_overlap.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/random_placement_no_overlap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="more_efficient_placement.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/more_efficient_placement.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="squares.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/squares.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="646">
+              <caret line="58" column="94" selection-start-line="58" selection-start-column="94" selection-end-line="58" selection-end-column="94" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -86,14 +66,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BOA3C7.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BOA3C7.png">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="more_efficient_placement.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/more_efficient_placement.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="5" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/scipy/misc/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="squares.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/squares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -114,9 +108,9 @@
         <option value="$PROJECT_DIR$/draw_to_img_test_1.py" />
         <option value="$PROJECT_DIR$/circle_generation.py" />
         <option value="$PROJECT_DIR$/random_placement_circle_generation.py" />
-        <option value="$PROJECT_DIR$/random_placement_no_overlap.py" />
-        <option value="$PROJECT_DIR$/more_efficient_placement.py" />
         <option value="$PROJECT_DIR$/squares.py" />
+        <option value="$PROJECT_DIR$/more_efficient_placement.py" />
+        <option value="$PROJECT_DIR$/random_placement_no_overlap.py" />
       </list>
     </option>
   </component>
@@ -129,9 +123,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="960" />
-    <option name="width" value="961" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1" />
+    <option name="width" value="1922" />
     <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -237,7 +231,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="961" height="1054" extended-state="4" />
+    <frame x="-1" y="0" width="1922" height="1054" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -269,6 +264,66 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/draw_to_img_test_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="39" selection-end-line="10" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_placement_circle_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="45" column="23" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_placement_no_overlap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/more_efficient_placement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/squares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/draw_to_img_test_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -415,31 +470,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/more_efficient_placement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state>
+          <caret selection-end-line="5" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_placement_no_overlap.py">
+    <entry file="file://$PROJECT_DIR$/squares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/scipy/misc/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BOA3C7.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/squares.py">
+    <entry file="file://$PROJECT_DIR$/random_placement_no_overlap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="646">
+          <caret line="58" column="94" selection-start-line="58" selection-start-column="94" selection-end-line="58" selection-end-column="94" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
