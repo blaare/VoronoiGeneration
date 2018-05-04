@@ -55,4 +55,4 @@ for i in range(0, 125):
     # iterations/ number of circles
     for j in range(0, 100):
         create_circle(datum, i, vertices[j][0], vertices[j][1], 1024, vertices[j][2], vertices[j][3], vertices[j][4])
-imsave(id_generator()+".png", smp.toimage(datum))       # Create a PIL image
+imsave("./sample_images/"+id_generator()+".png", smp.toimage(datum))       # Create a PIL image
