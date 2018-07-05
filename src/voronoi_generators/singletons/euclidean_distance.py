@@ -1,14 +1,9 @@
-import pathlib
 import random
+import string
 
 import imageio as imageio
 import numpy
-import scipy
-import string
-
 import numpy as np
-from scipy.misc import imsave
-import scipy.misc as smp
 
 
 def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
@@ -70,5 +65,5 @@ for i in range(0, 300):
     for j in range(1, 10):
         create_circle(datum, i, vertices[j][0], vertices[j][1], 1024, vertices[j][2], vertices[j][3], vertices[j][4])
     # Create a PIL image
-imageio.imwrite('../../sample_images/'+id_generator()+".png", numpy.asarray(datum))       # Create a PIL image
+    imageio.imwrite('../../../sample_images/turn_into_gif/'+str(i)+".png", numpy.asarray(datum))       # Create a PIL image
 

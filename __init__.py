@@ -1,0 +1,2 @@
+import base
+import src.voronoi_generators.singletons.gifify
