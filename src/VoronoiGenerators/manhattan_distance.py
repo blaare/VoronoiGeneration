@@ -21,7 +21,7 @@ def check_if_zero(a):
 def create_circle(data, radius=10, center_x=512, center_y=512, resolution=1024, r=254, g=0, b=0):
     squared = radius*radius
     for x in range(0, radius):
-        for y in range(0, radius-5):
+        for y in range(0, radius):
             if squared >= x + y:
                 x_neg = center_x - x
                 x_plu = center_x + x

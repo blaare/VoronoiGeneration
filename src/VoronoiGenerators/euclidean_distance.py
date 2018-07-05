@@ -1,4 +1,8 @@
+import pathlib
 import random
+
+import imageio as imageio
+import numpy
 import scipy
 import string
 
@@ -56,14 +60,15 @@ datum = np.zeros((1024, 1024, 3), dtype=np.uint8)
 print(datum[0, 0])
 vertices = []
 for i in range(0, 50):
-    vertices.append([random.randint(1, 1024), random.randint(1, 1024), random.randint(150, 254)])
+    vertices.append([random.randint(1, 1024), random.randint(1, 1024),
+                     random.randint(0, 254), random.randint(0, 254), random.randint(0, 254)])
 
 # size
-for i in range(0, 200):
+for i in range(0, 300):
     print("%d \r" % i)
     # iterations/ number of circles
-    for j in range(1, 50):
-        create_circle(datum, i, vertices[j][0], vertices[j][1], 1024, vertices[j][2], vertices[j][2], vertices[j][2])
-      # Create a PIL image
-imsave("./sample_images/"+id_generator()+".png", smp.toimage(datum))       # Create a PIL image
+    for j in range(1, 10):
+        create_circle(datum, i, vertices[j][0], vertices[j][1], 1024, vertices[j][2], vertices[j][3], vertices[j][4])
+    # Create a PIL image
+imageio.imwrite('../../sample_images/'+id_generator()+".png", numpy.asarray(datum))       # Create a PIL image
 
