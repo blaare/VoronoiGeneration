@@ -22,14 +22,13 @@ gif_name = id_generator() + '.gif'
 only_files_length = len(listdir(images_to_gif_path))
 images = []
 
-print("Compressing Images")
-os.system("optipng " + images_to_gif_path + "*")
-
 print("Adding files to data structure")
 for i in range(0, only_files_length):
     images.append(imageio.imread(images_to_gif_path + str(i) + '.png'))
 print("Added files to data structure\nConverting images to GIF")
 imageio.mimsave(gif_path + gif_name, images)
+print("Compressing GIF")
+os.system("gifsicle -i " + gif_path+gif_name+" --optimize=4 -o " + gif_path+gif_name)
 print("Speeding up GIF")
 os.system("convert -delay 1x60 " + gif_path + gif_name + " " + gif_path + gif_name)
 print("GIF " + gif_path + gif_name + " complete")
